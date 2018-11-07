@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Classic</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Classic</description>
+    <title>Home on Classic</title>
+    <link>/</link>
+    <description>Recent content in Home on Classic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Nov 2018 21:51:21 -0600</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,8 +18,7 @@
       
       <guid>/post/2018/11/05/455-days/</guid>
       <description>455 days ago today I started work at a fairly large medical software company in Madison, Wisconsin. About 3 weeks in I realized I didn&amp;rsquo;t want to be there1 very long.
-Anyway its 1am now, maybe day 456 will be better.
- There? Here? Hard to say which is right but I&amp;rsquo;m still here as of today. !   </description>
+This is something I did in high school. It took me awhile to figure out - and it doesn&amp;rsquo;t even work right yet - but hey it&amp;rsquo;s mine. I wrote it; that&amp;rsquo;s what this is supposed to be all about.</description>
     </item>
     
     <item>
