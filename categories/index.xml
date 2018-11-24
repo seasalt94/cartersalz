@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Classic</title>
+    <title>Categories on Carter Salz</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Classic</description>
+    <description>Recent content in Categories on Carter Salz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,6 +16,15 @@
       <pubDate>Mon, 05 Nov 2018 21:51:21 -0600</pubDate>
       
       <guid>/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>/categories/project/</link>
+      <pubDate>Mon, 19 Nov 2018 21:46:06 -0600</pubDate>
+      
+      <guid>/categories/project/</guid>
       <description></description>
     </item>
     

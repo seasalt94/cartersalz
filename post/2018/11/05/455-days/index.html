@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>455 Days | Classic</title>
+    <title>455 Days | Carter Salz</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="/css/theme-override.css">
@@ -33,7 +33,7 @@
       
       
       <li class="pull-left ">
-        <a href="/tags/">Tags</a>
+        <a href="/categories/project/">Projects</a>
       </li>
       
 
@@ -75,9 +75,12 @@
 
 <p>This is something I did in high school. It took me awhile to figure out - and it doesn&rsquo;t even work right yet - but hey it&rsquo;s mine. I wrote it; that&rsquo;s what this is supposed to be all about.</p>
 
-<pre><code class="language-python"># Simple Hangman game using the offical Scrabble dictionary (SOWPODS)
+<p>Update 11/19/18: I went back and updated it so it works now. My main takeaway is that I&rsquo;m bad at hangman.</p>
+
+<pre><code class="language-python"># Simple Hangman game using an offical Scrabble dictionary (SOWPODS)
 # Carter Salz 
-# 11-06-2018
+# 11-19-2018
+
 import random
 
 # Read the master dictionary stored in the same local directory
@@ -96,7 +99,6 @@ with open(&quot;long_sowpods.txt&quot;,&quot;r&quot;) as i:
 myWord=random.choice(longerList).strip()
 
 print(&quot;welcome to hangman&quot;)
-
 blanks='-'*len(myWord)
 print(blanks)
 blanks=list(blanks)
@@ -104,25 +106,24 @@ myWord=list(myWord)
 guess=input(&quot;Guess a letter: &quot;)
 guessed=[]
 while True:
-
     if guess.upper() in guessed:
-        guess=&quot;&quot;
         print(&quot;You've already guessed that. Letter's guessed so far: &quot;+str(guessed))
     elif guess.upper() in myWord:
-        index=myWord.index(guess.upper())
-        blanks[index]=guess.upper()
-        myWord[index]=&quot;-&quot;
+        for i in range(0,len(myWord)):
+            if guess.upper()==myWord[i]:
+                blanks[i] = guess.upper()
+        print(&quot;'&quot;+guess.upper()+&quot;'&quot;+&quot; is here!&quot;)
+        print(''.join(blanks))
+        guessed.append(guess.upper())
     else:
-        print(&quot;&quot;.join(blanks))
         if guess is not &quot;&quot;:
             guessed.append(guess.upper())
             print(&quot;Nope! Now you've guessed: &quot;+str(guessed))
-            guess=input(&quot;Guess another letter: &quot;)
 
     if &quot;-&quot; not in blanks:
         print (&quot;You win?&quot;)
-        print(myWord)
         break
+    guess=input(&quot;Guess another letter: &quot;)
 </code></pre>
 
 <p>Anyway its 1am now, maybe day 456 will be better.</p>
@@ -131,7 +132,7 @@ while True:
 <hr />
 
 <ol>
-<li id="fn:1">There? Here? Hard to say which is right but I&rsquo;m still here as of <code>today</code>.
+<li id="fn:1">There? Here? Hard to say which is right but I&rsquo;m still here as of &ldquo;today&rdquo;.
  <a class="footnote-return" href="#fnref:1">!</a></li>
 </ol>
 </div>

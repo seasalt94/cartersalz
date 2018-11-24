@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Classic</title>
+    <title>Posts on Carter Salz</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Classic</description>
+    <description>Recent content in Posts on Carter Salz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Nov 2018 21:51:21 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 21:46:06 -0600</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Infinity Mirror</title>
+      <link>/post/2018/11/19/infinity-mirror/</link>
+      <pubDate>Mon, 19 Nov 2018 21:46:06 -0600</pubDate>
+      
+      <guid>/post/2018/11/19/infinity-mirror/</guid>
+      <description>As part of an effort to get back to engineering, I&amp;rsquo;m trying to take on small projects or hobby things that make me think through a design - from idea to build I just want to make things. This was an idea I saw a couple different places online and thought it could be a nice and easy little hardware project. I liked the idea too because there are a lot of different ways you can build off of it: add programmable RGB LEDs, make the frame geometry more complex, add sensors/ functionality to the display, etc.</description>
+    </item>
     
     <item>
       <title>455 Days</title>
